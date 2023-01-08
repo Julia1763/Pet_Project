@@ -1,55 +1,53 @@
-# Project
-Childhood Allergies: Prevalence, Demographics
 
-This dataset provides retrospective data on childhood allergies, specifically asthma, atopic dermatitis, allergic rhinitis and food allergy, to investigate the prevalence, treatment outcomes, and patient demographics
-Стало интересно проанализировать детскую аллергию в зависимости от различных факторов.
-Датасет взят с платформы Kaggle.
+# Childhood Allergies: Prevalence, Demographics
 
-Описание колонок.
-BIRTH_YEAR: Year of birth of the patient. (Integer)
-GENDER_FACTOR: Gender of the patient. (String)
-RACE_FACTOR: Race of the patient. (String)
-ETHNICITY_FACTOR: Ethnicity of the patient. (String)
-PAYER_FACTOR: Insurance coverage of the patient. (String)
-ATOPICMARCHCOHORT: Cohort of the patient. (String)
-AGESTARTYEARS: Age of the patient at the start of the study. (Integer)
-AGEENDYEARS: Age of the patient at the end of the study. (Integer)
-SHELLFISHALGSTART: Shellfish allergy status at the start of the study. (String)
-SHELLFISHALGSTART: Shellfish allergy status at the start of the study. (String)
-SHELLFISHALGEND: Shellfish allergy status at the end of the study. (String)
-SHELLFISHALGEND: Shellfish allergy status at the end of the study. (String)
-MILKALGSTART: Milk allergy status at the start of the study. (String)
-MILKALGEND: Milk allergy status at the end of the study. (String)
-SOYALGSTART: Soy allergy status at the start of the study. (String)
-SOYALGEND: Soy allergy status at the end of the study. (String)
-EGGALGSTART: Egg allergy status at the start of the study. (String)
-EGGALGEND: Egg allergy status at the end of the study. (String)
-WHEATALGSTART: Wheat allergy status at the start of the study. (String)
-WHEATALGEND: Wheat allergy status at the end of the study. (String)
-PEANUTALGSTART: Peanut allergy status at the start of the study. (String)
-PEANUTALGEND: Peanut allergy status at the end of the study. (String)
-SESAMEALGSTART: Sesame allergy status at the start of the study. (String)
-SESAMEALGEND: Sesame allergy status at the end of the study. (String)
-TREENUTALGSTART: Tree nut allergy status at the start of the study. (String)
-TREENUTALGEND: Tree nut allergy status at the end of the study. (String)
-WALNUTALGSTART: Walnut allergy status at the start of the study. (String)
-WALNUTALGEND: Walnut allergy status at the end of the study. (String)
-PECANALGSTART: Pecan allergy status at the start of the study. (String)
-PECANALGEND: Pecan allergy status at the end of the study. (String)
-PISTACHALGSTART: Pistachio allergy status at the start of the study. (String)
-PISTACHALGEND: Pistachio allergy status at the end of the study. (String)
-ALMONDALGSTART: Almond allergy status at the start of the study. (String)
-ALMONDALGEND: Almond allergy status at the end of the study. (String)
-BRAZILALGSTART: Brazil nut allergy status at the start of the study. (String)
-BRAZILALGEND: Brazil nut allergy status at the end of the study. (String)
-HAZELNUTALGSTART: Hazelnut allergy status at the start of the study. (String)
-HAZELNUTALGEND: Hazel
-ATOPICDERMSTART: Atopic dermatitis status at the start of the study. (String)
-ATOPICDERMEND: Atopic dermatitis status at the end of the study. (String)
-ALLERGICRHINITISSTART: Allergic rhinitis status at the start of the study. (String)
-ALLERGICRHINITISEND: Allergic rhinitis status at the end of the study. (String)
-ASTHMA_START: Asthma status at the start of the study. (String)
-ASTHMA_END: Asthma status at the end of the study. (String)
-FIRST_ASTHMARX: First asthma medication prescribed. (String)
-LAST_ASTHMARX: Last asthma medication prescribed. (String)
-NUM_ASTHMARX: Number of asthma medications prescribed. (Integer)
+# This dataset provides retrospective data on childhood allergies, specifically asthma, atopic dermatitis, allergic rhinitis and food allergy, to investigate the prevalence, treatment outcomes, and patient demographics
+# Стало интересно проанализировать детскую аллергию в зависимости от различных факторов.
+# Датасет взят с платформы Kaggle.
+
+# Описание колонок.
+* BIRTH_YEAR - год рождения;
+* GENDER_FACTOR - пол;
+* RACE_FACTOR - раса;
+* ETHNICITY_FACTOR - этническая принадлежность
+* PAYER_FACTOR - наличие медицинского страхования;
+* ATOPICMARCHCOHORT - 
+* AGESTARTYEARS - возраст пациента в начале исследования;
+* AGEENDYEARS - возраст пациента в конце исследования;
+* SHELLFISHALGSTART - состояние аллергии на моллюсков в начале исследования;
+* SHELLFISHALGEND - состояние аллергии на моллюсков в начале исследования;
+* MILKALGSTART - состояние аллергии на молочную продукцию в начале исследования;
+* MILKALGEND: - состояние аллергии на молочную продукцию в конце исследования;
+* SOYALGSTART - состояние аллергии на сою в начале исследования;
+* SOYALGEND - состояние аллергии на сою в конце исследования;
+* EGGALGSTART - состояние аллергии на яйца в начале исследования;
+* EGGALGEND - состояние аллергии на яйца в конце исследования;
+* WHEATALGSTART - состояние аллергии на пшеницу в начале исследования;
+* WHEATALGEND - состояние аллергии на пшеницу в конце исследования;
+* PEANUTALGSTART - состояние аллергии на арахис в начале исследования;
+* PEANUTALGEND - состояние аллергии на арахис в конце исследования;
+* SESAMEALGSTART - состояние аллергии на кужут в начале исследования;
+* SESAMEALGEND - состояние аллергии на кунжут в конце исследования;
+* TREENUTALGSTART - состояние аллергии на лесной орех в начале исследования;
+* TREENUTALGEND - состояние аллергии на лесной орех в конце исследования;
+* WALNUTALGSTART - состояние аллергии на грецкий орех в начале исследования;
+* WALNUTALGEND - состояние аллергии на грецкий орех в конце исследования;
+* PECANALGSTART - состояние аллергии на пекан в начале исследования;
+* PECANALGEND - состояние аллергии на яйца в конце исследования;
+* PISTACHALGSTART - состояние аллергии на фисташки в начале исследования;
+* PISTACHALGEND - состояние аллергии на фисташки в конце исследования;
+* ALMONDALGSTART - состояние аллергии на миндаль в начале исследования;
+* ALMONDALGEND - состояние аллергии на миндаль в конце исследования;
+* BRAZILALGSTART - состояние аллергии на бразильский орех в начале исследования;
+* BRAZILALGEND - состояние аллергии на бразильский орех в конце исследования;
+* HAZELNUTALGSTART - состояние аллергии на фундук в начале исследования;
+* HAZELNUTALGEND - состояние аллергии на фундук в начале исследования;
+* ATOPICDERMSTART - состояние атопического дерматита в начале исследования;
+* ATOPICDERMEND - состояние атопического дерматита в конце исследования;
+* ALLERGICRHINITISSTART - состояние аллергического ринита в начале исследования;
+* ALLERGICRHINITISEND - состояние аллергического ринита в конце исследования;
+* ASTHMA_START - состояние астмы в начале исследования;
+* ASTHMA_END - состояние астмы в начале исследования;
+* FIRST_ASTHMARX - первое медицинское назначение лекарства от астмы;
+* LAST_ASTHMARX - последнее медицинское назначение лекарства от астмы;
+* NUM_ASTHMARX - количество назначенных лекарств от астмы.
